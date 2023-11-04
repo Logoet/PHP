@@ -1,0 +1,92 @@
+***PHP***
+*PHP - PHP: Hypertext Preprocessor
+
+#Livros 
+*Documentação PHP - Documentação com a explicação técnica de todas as funcionalidades da linguagem.
+*Aprendendo PHP - ED O'reillyl.
+*Programming PHP -  ED O'reillyl.
+*Learn PHP 8 - ED APress
+*PHP & MySQL - ED wiley
+
+
+//////////////////////////////////////////////////////////////////////
+Aula 0 - (21/10/23)
+#Introdução
+#Instalações
+É IMPOSSÍVEL DESVER O ELEPHPANTE.
+*Client-Side - O trabalho maior de processar os arquivos requisitados pelo cliente, será feita no lado do cliente, no seu navegador.
+*Server-Side - O trabalho maior de processar os arquivos requisitados pelo cliente, será feito no lado do servidor, pelos interpretadores das linguagens do servidor.
+
+//////////////////////////////////////////////////////////////////////
+CEV - Aula 1 - (21/10/23)
+#Primeiro Programa PHP
+#O PHP por dentro
+///Comando PHP tem de estar dentro dos seus limitadores, como um script qualquer.
+///O PHP 7 em diante aceita os UNICODES icons usando o comando \u{codigo}.
+///Um script em PHP faz um pré processamento de um código que será enviado para o cliente.
+///Por padrão o servidor roda num fuso-horário configurado, que é possível de ser mudado utilizando comandos Date.
+
+//////////////////////////////////////////////////////////////////////
+CEV - Aula 2 - (21/10/23)
+#Configurar o php.ini
+#Variáveis e constantes
+///É possível mudar algumas configurações do PHP, como o display_Error, que mostra ou não erros de sintaxe no navegador.
+///O PHP não precisa declarar uma variável, ele a cria quando se faz uma atribuição pela primeira vez. Isso não se aplica a constantes.
+*camelCase - Iniciar uma variável em minúsculo e colocar a primeira letra das novas palavras em maiúscula;nomeCliente.
+*SnakeCase - Usar underlines para separar as palavras de uma variável;Telefone_fornecedor.
+#Comandos --
+*$_GET/POST/REQUEST - Comando que recebe o valor de um input do HTML e envia para uma variável local.
+*number_format - Formata uma variável.
+*javascript::history.go(-1) - Comando que acessa o histórico de navegação da guia e a joga para a página passada no parametro.
+*
+
+//////////////////////////////////////////////////////////////////////
+CEV - Aula 3 - (22/10/23)
+#Tipos Primitivos
+#Manipulação de strings
+#Expressões Aritméticas 
+#Funções Aritméticas
+#Operadores aritméticos
+*?? - Operador de coalescênciatura que quando uma variável não recebe nenhum valor, ele insere um valor pre estipulado.
+*base_convert() - Comando que converte bases numéricas
+///O PHP funciona de maneira similar a outras linguagens, quando o assunto é a manipulação aritmética.
+
+//////////////////////////////////////////////////////////////////////
+CEV - Aula 4 - (22/10/23)
+#Resolução dos desafios
+
+
+//////////////////////////////////////////////////////////////////////
+CEV - Aula 5 - (23/10/23)
+#Desafio com API externa
+#Superglobais no PHP
+#Formulário retroalimentados
+*Query string - ?
+///É uma prática boa criar formulários dentro do PHP onde o processo de receber informações e mostrar os resultados aconteçam dentro da mesma página PHP.
+
+//////////////////////////////////////////////////////////////////////
+CEV - Aula 5 - (22/10/23)
+
+
+
+
+//////////////////////////////////////////////////////////////////////
+COMANDOS --
+#Default
+*date - retorna algo relacionado a data do computador.
+*var_dump - Mostra o tipo de dado.
+
+#JSON
+*json_decode() - Trata os dados do formato JSON.
+
+#SuperGlobais $_
+*COOKIES - Recebe os valores de variáveis temporárias do navegador.
+$ENV - Permite Trabalhar com variáveis de ambiente.
+*FILES - Recebe um arquivo que foi baixado/enviado.
+*GET - Recebe os valores na URL.
+$GLOBALS - Permite ver todos os valores das outras SuperGlobais.
+*POST - Recebe valores do cabeçalho do envio de dados.
+*REQUEST - Recebe tanto os valores GET como POST.
+$SESSION - Permite que variáveis de sessão sejam utilizadas.
+$SERVER - ?
+
